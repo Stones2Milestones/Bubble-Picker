@@ -34,7 +34,8 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
     implementation files('libs/jbox2d-library-2.1.2.2.jar')
-    implementation files('libs/slf4j-api-1.7.22.jar')
+//    implementation files('libs/slf4j-api-1.7.22.jar')
+    compileOnly files('libs/slf4j-api-1.7.22.jar')
     implementation files('libs/universal-image-loader-1.9.5.jar')
 
     testImplementation 'junit:junit:4.12'
