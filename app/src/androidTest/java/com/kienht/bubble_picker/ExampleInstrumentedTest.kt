@@ -1,5 +1,6 @@
 package com.kienht.bubble_picker
 
+import androidx.test.InstrumentationRegistry.getTargetContext
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
 
