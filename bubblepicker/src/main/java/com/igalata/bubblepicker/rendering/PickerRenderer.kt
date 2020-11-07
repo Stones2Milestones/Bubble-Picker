@@ -67,12 +67,13 @@ class PickerRenderer(val glView: View) : GLSurfaceView.Renderer {
 
     override fun onSurfaceChanged(gl: GL10?, width: Int, height: Int) {
         glViewport(0, 0, width, height)
-        if (initializationListener != null) {
+        initialize()
+        /*if (initializationListener != null) {
             Log.i("TAG", "inside on surface changed, give callback to onReady method")
             initializationListener!!.onReady(null)
         } else {
             Log.i("TAG", "listener is null")
-        }
+        }*/
     }
 
     fun setInitializationListener(listener: OnReadyForInitializationListener) {

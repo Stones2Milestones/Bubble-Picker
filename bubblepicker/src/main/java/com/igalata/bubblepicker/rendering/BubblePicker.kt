@@ -83,14 +83,14 @@ class BubblePicker : GLSurfaceView {
         attrs?.let { retrieveAttrubutes(attrs) }
     }
 
-    fun setInitializationListener(listener: OnReadyForInitializationListener) {
+    /*fun setInitializationListener(listener: OnReadyForInitializationListener) {
         Log.i("TAG", "setting initalization listener")
         renderer.setInitializationListener(listener)
     }
 
     fun initializeView() {
         renderer.initialize()
-    }
+    }*/
 
     override fun onTouchEvent(event: MotionEvent): Boolean {
         when (event.action) {

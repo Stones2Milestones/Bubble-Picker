@@ -75,14 +75,14 @@ class MainActivity : AppCompatActivity() {
         }
         bubbleFoodInterestPicker.centerImmediately = true
 
-        bubbleFoodInterestPicker.setInitializationListener(object : OnReadyForInitializationListener {
+        /*bubbleFoodInterestPicker.setInitializationListener(object : OnReadyForInitializationListener {
             override fun onReady(`object`: Any?) {
                 Log.d(TAG, "inside onReady on bubble picker")
                 tvSelectedInterests.visibility = View.INVISIBLE
                 selectedFoodItemList.clear()
                 bubbleFoodInterestPicker.initializeView()
             }
-        })
+        })*/
     }
 
     private fun updateFoodPreferences() {
