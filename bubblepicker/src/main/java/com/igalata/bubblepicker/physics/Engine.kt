@@ -87,8 +87,8 @@ object Engine {
     }
 
     fun clear() {
-        borders.forEach { world.destroyBody(it.itemBody) }
-        bodies.forEach { world.destroyBody(it.physicalBody) }
+        /*borders.forEach { world.destroyBody(it.itemBody) }
+        bodies.forEach { world.destroyBody(it.physicalBody) }*/
         borders.clear()
         bodies.clear()
     }
